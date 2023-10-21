@@ -1,6 +1,6 @@
-In this project, let's build a **Password Manager** by applying the concepts we have learned till now.
+Currently working on this project, a **Password Manager** app .
 
-### Refer to the image below:
+### prototype image below:
 
 <br/>
 <div style="text-align: center;">
@@ -22,22 +22,13 @@ In this project, let's build a **Password Manager** by applying the concepts we 
 
 </details>
 
-### Set Up Instructions
-
-<details>
-<summary>Click to view</summary>
-
-- Download dependencies by running `npm install`
-- Start up the app using `npm start`
-</details>
-
 ### Completion Instructions
 
 <details>
-<summary>Functionality to be added</summary>
+<summary>Functionality i will add</summary>
 <br/>
 
-The app must have the following functionalities
+The app will have the following functionalities
 
 - Initially, the website input, username input, and password input should be empty and [No Passwords View](https://assets.ccbp.in/frontend/content/react-js/password-manager-no-passwords-lg-output.png) should be displayed
 - When non-empty values are provided for the website, username, and password and the **Add** button is clicked,
@@ -52,21 +43,6 @@ The app must have the following functionalities
   - The respective password item should be deleted from the list of passwords
   - The passwords count should be decremented by one
 - When all password items are deleted, then [No Passwords View](https://assets.ccbp.in/frontend/content/react-js/password-manager-no-passwords-lg-output.png) should be displayed
-</details>
-
-### Important Note
-
-<details>
-<summary>Click to view</summary>
-
-<br/>
-
-**The following instructions are required for the tests to pass**
-
-- HTML input element for website should have the placeholder as **Enter Website**
-- HTML input element for username should have the placeholder as **Enter Username**
-- HTML input element for password should have the placeholder as **Enter Password**
-- The delete button for each password item should have the data-testid as **delete**
 </details>
 
 ### Resources
@@ -117,10 +93,3 @@ The app must have the following functionalities
 - Roboto
 
 </details>
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
